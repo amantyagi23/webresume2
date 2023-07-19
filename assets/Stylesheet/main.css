@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --navbg:#2C3333;
+    --white:#ffffff;
+    --mainbg:#ECEDEF;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+span{
+    display: block;
+}
+#header{
+    background-color: var(--navbg);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
+}
+#header ul li a:hover{
+    font-weight: 600;
+}
+#banner{
+    margin-top: 70px;
+}
+.btn{
+    height: 45px;
+    font-weight: 700;
+}
+#main{
+    background-color: var(--mainbg);
+    
+}
+#features .col{
+    text-align: center;
+    margin: 40px auto;
+}
+#features .image{
+    width: 140px;
+    margin: 0 auto;
+}
+#pollcreater .formbox{
+    width: 50%;
+    margin: 10px auto;
+}
+.heading{
+    font-size: 2.9em;
+    font-weight: 500;
+}
+.subhead{
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.textsize{
+    font-size: 1.3em;
+}
+
+#ans{
+    width: 50%;
+}
+#ans input{
+    margin: 10px;
+}
+
+
+
+
+#chart{
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+#chart .graph{
+    width: 100px;
+    background-color: #ECEDEF;
+    border: 1px solid #2C3333;
+    text-align: right;
+    margin: 0 10px;
+    position: absolute;
+    bottom: 0px
+}
+.line{
+    height: 4px ;
+    width: 100%;
+    background-color: #2C3333;
+}
